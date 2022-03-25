@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Project</title>
+    <link rel="stylesheet" href="./style/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- Навигация -->
+    <header>
+      <div class="header-wrapper">
+        <div class="header-flex">
+          <img src="./images/web-logo.png" alt="" class="web-logo" />
+          <img src="./images/footer-logo.png" alt="" class="mobile-logo">
+          <i class="fa fa-bars header-bars" aria-hidden="true"></i>
+          <nav>
+            <a href="#welcome" class="active-link">Главная</a>
+            <a href="#service">Наши модели</a>
+            <a href="#news">Новые модели</a>
+            <a href="#video">Презентация</a>
+            <a href="#contact">Наши контакты</a>  
+          </nav>
+        </div>
+      </div>
+    </header>
+<!-- Баннер -->
+    <div class="banner">
+      <div class="banner-wrapper">
+        <div class="inner">
+          <div class="banner-text">
+            <h1>Эксклюзивные предложение, а так же презентации новых моделей</h1>
+            <h3>Успей приобрести!</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Приветствие -->
+    <section id="welcome">
+      <div class="welcome-wrapper">
+        <div class="inner">
+          <div class="welcome-flex">
+            <div class="welcome-text">
+              <h1>
+                Добро пожаловать в Audi center  <br />
+                
+              </h1>
+              <div class="welcome-details">
+                <p>
+                  Audi AG — немецкий автопроизводитель, который занимается проектированием, конструированием, производством и продажей автомобилей класса люкс. Штаб-квартира компании находится в Ингольштадте, Германия. Audi AG владеет брендами Lamborghini и SEAT, а сама с 1966 года принадлежит концерну Volkswagen AG.
+                </p>
+              </div>
+              <button class="welcome-btn">Выбрать модели</button>
+            </div>
+            <img src="./images/welcome-image.png" alt="welcome" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Услуги -->
+    <section id="service">
+      <div class="service-wrapper">
+        <div class="inner">
+          <div class="service-text">
+            <h1>Наши модели</h1>
+            <hr />
+            <p>
+              Мы предлагаем вам лучшие модели автомобилей. 
+            </p>
+          </div>
+          <div class="service-cards">
+            <div class="cards-row">
+              <div class="card">
+                <img src="./images/icon6.jpg" alt="search" />
+                <H1>Audi A6</H1>
+              </div>
+              <div class="card">
+                <img src="./images/icon5.png" alt="online" />
+                <H1>Audi Q7 </H1>
+              </div>
+              <div class="card">
+                <img src="./images/icon.jpg" alt="icon" />
+                <H1>Audi RS8</H1>
+              </div>
+            </div>
+            <div class="cards-row hidden expandable">
+              <div class="card">
+                <img src="./images/icon2.jpeg" alt="info" />
+                <h1>Audi RS Q3</h1>
+              </div>
+              <div class="card">
+                <img src="./images/icon1.png" alt="help" />
+                <h1>Audi RS Q8</h1>
+              </div>
+              <div class="card">
+                <img src="./images/icon4.jpg " alt="tracking" />
+                <h1>Audi E-TRON</h1>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="bnt-container">
+          <button class="default expand-btn">Расширить</button>
+        </div>
+      </div>
+    </section>
+    <!-- Проект -->
+    <!-- <section id="project">
+      <div class="project-wrapper">
+        <div class="inner">
+          <div class="projects-container">
+            <div class="project">
+              <img src="./images/project-image.png" alt="project" />
+              <div class="project-text">
+                <h1>Ведущие поставщики медицинских услуг</h1>
+                <hr />
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Similique est rerum deserunt! Consequatur, quas? Architecto
+                  rerum qui eos placeat modi, pariatur recusandae eaque, laborum
+                  fugiat, dolores nesciunt maiores ipsa possimus.
+                </p>
+                <button class="default">Подробнее</button>
+              </div>
+            </div>
+            <div class="project right-aligned">
+              <img src="./images/project-app.png" alt="project" />
+              <div class="project-text">
+                <h1>Загрузите наш мобильные приложения</h1>
+                <hr />
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Similique est rerum deserunt! Consequatur, quas? Architecto
+                  rerum qui eos placeat modi, pariatur recusandae eaque, laborum
+                  fugiat, dolores nesciunt maiores ipsa possimus.
+                </p>
+                <button class="default">
+                  Скачать
+                  <i
+                    class="fa fa-long-arrow-down"
+                    aria-hidden="true"
+                    style="margin-left: 12px"
+                  ></i>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section> -->
+    <!-- Новости -->
+    <section id="news">
+      <div class="news-wrapper">
+        <div class="inner">
+          <div class="news-text">
+            <h1>Узнайте о наших новых моделях</h1>
+            <hr />
+          </div>
+          <div class="news-cards">
+            <div class="cards-row">
+              <div class="card">
+                <img src="./images/news1.webp" alt="news" />
+                <div class="card-info">
+                  <h1>Новый RS 3 Sedan</h1>
+                  <p>
+                    Прогрессивный на 360 градусов.
+                  </p>
+                  <a href="#"
+                    >Узнайте больше
+                    <i
+                      class="fas fa-long-arrow-alt-right"
+                      style="margin-left: 10px"
+                    ></i>
+                  </a>
+                </div>
+              </div>
+              <div class="card">
+                <img src="./images/news2.webp" alt="news" />
+                <div class="card-info">
+                  <h1>
+                    Новый RS 3 Sportback
+                  </h1>
+                  <p>
+                    Невероятно компактный прогрессивный хэтчбек.
+                  </p>
+                  <a href="#"
+                    >Читать далее
+                    <i
+                      class="fas fa-long-arrow-alt-right"
+                      style="margin-left: 10px"
+                    ></i>
+                  </a>
+                </div>
+              </div>
+              <div class="card">
+                <img src="./images/news3.webp" alt="news" />
+                <div class="card-info">
+                  <h1>Молния! Новый электромобиль от Audi</h1>
+                  <p>
+                    Второй полностью электрический SUV — Audi e-tron Sportback.
+                  </p>
+                  <a href="#"
+                    >Читать далее
+                    <i
+                      class="fas fa-long-arrow-alt-right"
+                      style="margin-left: 10px"
+                    ></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="bnt-container">
+              <button class="default">Посмотреть все</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Видео -->
+     <section id="video">
+      <div class="video-wrapper">
+        <div class="inner">
+          <div class="video-container">
+            <div class="video-element">
+              <div class="video-description">
+                <div class="points-container bottom-points">
+                </div>
+                <h1>Презентация новой модели Audi Q5</h1>
+                <span class="play-button">
+                  <img src="./images/play-button.png" alt="video-start" />
+                  <p>Play Video</p>
+                </span>
+              </div>
+            </div>
+            <div class="points-container top-points">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section> 
+    <!-- Связаться с нами -->
+    <section id="contact">
+      <div class="contact-wrapper">
+        <div class="inner">
+          <div class="contact-text">
+            <h1>Тест драйв</h1>
+            <p>Выберите любую понравившеюся модель и запишитесь на тест драйв!</p>
+          </div>
+          <div class="contact-form">
+            <div class="contact-container">
+              <div class="input-container">
+                <input type="text" placeholder="Контактный номер" />
+              </div>
+              <div class="input-button">Отправить</div>
+            </div>
+          </div>
+          <p style="text-align: center">Ваши данные в безопасности</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Подвал сайта -->
+  <footer class="footer">
+    <div class="footer-wrapper">
+      <div class="inner">
+        <div class="footer-flex">
+          <div class="description">
+            <div class="footer-container">
+            <img src="./images/footer-logo.png" alt="">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Non inventore harum delectus reiciendis modi omnis eius laudantium eos sit corrupti, amet deserunt illo animi tempora nobis. Distinctio hic cumque ut.
+            </p>
+            <p>©Audi</p>
+          </div>
+          </div>
+          <div class="links">
+            <div class="footer-container">
+               <h2>Компания</h2>
+              <ul>
+               <li> <a href="#">Главная</a></li>
+               <li><a href="">Наши работы</a></li>
+               <li><a href="">Проекты</a></li>
+               <li><a href="#">О нас</a></li>
+             </ul>  
+            </div>               
+          </div>
+          <div class="links">
+            <div class="footer-container">
+               <h2>Регион</h2>
+              <ul>
+               <li> <a href="#">Россия</a></li>
+               <li><a href="">Казахстан</a></li>
+               <li><a href="">Беларусь</a></li>
+               <li><a href="#">США</a></li>
+             </ul>  
+            </div>               
+          </div>
+          <div class="links">
+            <div class="footer-container">
+               <h2>Помощь</h2>
+              <ul>
+               <li> <a href="#">Центр помощи</a></li>
+               <li><a href="">Найти услугу</a></li>
+               <li><a href="">Контакты</a></li>
+               <li><a href="#">Инструкции</a></li>
+             </ul>  
+            </div>               
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <div class="modal-canvas hidden">
+   <div class="modal">
+    <div class="modal-close"> 
+      <span>Закрыть</span>
+    </div>
+    <div class="video-container">
+      <iframe width="100%" height="100%" src="https://www.youtube.com/embed/bXGaP0brqfQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+  </div>
+</div>
+<script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+  <script src="./script/script.js"></script>
+  </body>
+</html>
